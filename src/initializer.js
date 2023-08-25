@@ -41,6 +41,7 @@ function createNav() {
 
 function createMain() {
     const main = document.createElement('main');
+
     return main
 }
 
@@ -66,6 +67,8 @@ function initializeWebsite() {
     content.appendChild(createHeader());
     content.appendChild(createMain());
     content.appendChild(createFooter());
+
+    setActivePage(createHome());
 }
 
 export default initializeWebsite;
