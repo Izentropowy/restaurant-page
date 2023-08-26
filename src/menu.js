@@ -1,10 +1,15 @@
+import pastaImg from "/src/assets/images/pasta.png";
+import pizzaImg from "/src/assets/images/pizza.png";
+import spaghettiImg from "/src/assets/images/spaghetti.png";
+import wineImg from "/src/assets/images/wine.png";
+
 function createMenu() {
     const menu = document.createElement('div');
     
-    const pasta = createItem("Pasta", "The best pasta");
-    const pizza = createItem("Pizza", "The best pizza");
-    const spaghetti = createItem("Spaghetti", "The best spaghetti");
-    const wine = createItem("Wine", "The best wine");
+    const pasta = createItem(pastaImg, "Pasta", "The best pasta");
+    const pizza = createItem(pizzaImg, "Pizza", "The best pizza");
+    const spaghetti = createItem(spaghettiImg, "Spaghetti", "The best spaghetti");
+    const wine = createItem(wineImg, "Wine", "The best wine");
 
     menu.append(pasta, pizza, spaghetti, wine);
 
@@ -12,13 +17,13 @@ function createMenu() {
 }
 
 
-function createItem(name, description) {
+function createItem(imgPath, name, description) {
     const item = document.createElement('div');
     const header = document.createElement('h2');
     const paragraph = document.createElement('p');
     const img = document.createElement('img');
 
-    img.src = `/src/assets/images/${name.toLowerCase()}.png`;
+    img.src = imgPath;
     header.textContent = name;
     paragraph.textContent = description;
     item.append(img, header, paragraph);

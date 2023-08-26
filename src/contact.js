@@ -1,3 +1,5 @@
+import Img from "/src/assets/images/contact-us.png";
+
 function createContact() {
     const contact = document.createElement('div');
     const subDiv = document.createElement('div');
@@ -8,7 +10,7 @@ function createContact() {
     paragraph1.textContent = "Piazza del Colosseo, 1, 00184 Roma RM";
     paragraph2.textContent = "+01 234 567 890";
     const img = document.createElement('img');
-    img.src = "/src/assets/images/contact-us.png";
+    img.src = Img;
 
     contact.append(subDiv);
     subDiv.append(header, paragraph1, paragraph2, img);
