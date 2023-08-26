@@ -1,5 +1,6 @@
 function createContact() {
     const contact = document.createElement('div');
+    const subDiv = document.createElement('div');
     const header = document.createElement('h1');
     const paragraph1 = document.createElement('p');
     const paragraph2 = document.createElement('p');
@@ -9,7 +10,8 @@ function createContact() {
     const img = document.createElement('img');
     img.src = "/src/assets/images/contact-us.png";
 
-    contact.append(header, paragraph1, paragraph2, img);
+    contact.append(subDiv);
+    subDiv.append(header, paragraph1, paragraph2, img);
 
     return contact
 }
