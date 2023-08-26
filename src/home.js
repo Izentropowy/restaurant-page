@@ -1,3 +1,5 @@
+import Img from "/src/assets/images/rome.png";
+
 function createHome() {
     const home = document.createElement('div');
     const about = document.createElement('div');
@@ -20,7 +22,7 @@ function createHome() {
 
     localization.appendChild(createHeader("Localization"));
     const img = document.createElement("img");
-    img.src = "/src/assets/images/rome.png";
+    img.src = Img;
     localization.appendChild(img);
 
     return home
