@@ -19,7 +19,6 @@ function createHome() {
     hours.appendChild(createParagraph("Sunday: 6am - 10pm"));
 
     localization.appendChild(createHeader("Localization"));
-    const map = createParagraph();
     const img = document.createElement("img");
     img.src = "/src/assets/images/rome.png";
     localization.appendChild(img);

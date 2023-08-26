@@ -2,7 +2,6 @@
 
 :root {
     --main-color: #eee6de;
-    --secondary-color: #8b5a2b;
     --mrg: 2rem;
     --pdg: 1rem;
 }
@@ -29,6 +28,7 @@ img {
     width: 75%;
     border-radius: 5%;
     margin: var(--mrg);
+    max-width: 400px;
 }
 
 button {
@@ -99,6 +99,8 @@ nav > *:nth-child(3) {
     color: #CD212A;
 }
 
+/* Main */
+
 main {
     flex: 1;
     background: url(/src/assets/images/eating.jpg);
@@ -107,6 +109,8 @@ main {
     background-position: center;
     background-size: cover;
     padding: 6rem;
+    display: flex;
+    justify-content: center;
 }
 
 main > div {
@@ -117,12 +121,15 @@ main > div {
     opacity: 0.8;
     background-color: black;
     text-align: center;
+    width: 600px;
 }
 
 main > div > div {
     margin: var(--mrg);
     border: 2px solid var(--main-color);
 }
+
+/* Footer */
 
 footer {
     background: url(/src/assets/images/wood.jpg);
@@ -132,3 +139,9 @@ footer {
     text-align: center;
     line-height: 3rem;
 }
+
+@media screen and (max-width: 600px) {
+    main {
+      padding: 0;
+    }
+  }
