@@ -894,7 +894,7 @@ function createItem(imgPath, name, description) {
   \******************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/contact-us.png";
+module.exports = __webpack_require__.p + "23bede9250d4fac215b8.png";
 
 /***/ }),
 
@@ -904,7 +904,7 @@ module.exports = __webpack_require__.p + "assets/contact-us.png";
   \**************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/eating.jpg";
+module.exports = __webpack_require__.p + "7241b52906cfd899dc32.jpg";
 
 /***/ }),
 
@@ -914,7 +914,7 @@ module.exports = __webpack_require__.p + "assets/eating.jpg";
   \*************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/pasta.png";
+module.exports = __webpack_require__.p + "fc9a50ecd1eed17aacd0.png";
 
 /***/ }),
 
@@ -924,7 +924,7 @@ module.exports = __webpack_require__.p + "assets/pasta.png";
   \*************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/pizza.png";
+module.exports = __webpack_require__.p + "2f801dda9038f6856968.png";
 
 /***/ }),
 
@@ -934,7 +934,7 @@ module.exports = __webpack_require__.p + "assets/pizza.png";
   \*****************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/spaghetti.png";
+module.exports = __webpack_require__.p + "f082bf10c97f31fcf506.png";
 
 /***/ }),
 
@@ -944,7 +944,7 @@ module.exports = __webpack_require__.p + "assets/spaghetti.png";
   \************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/wine.png";
+module.exports = __webpack_require__.p + "41bf7d787d19d8ebe1fe.png";
 
 /***/ }),
 
@@ -954,7 +954,7 @@ module.exports = __webpack_require__.p + "assets/wine.png";
   \************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/wood.jpg";
+module.exports = __webpack_require__.p + "37ef091255968e807729.jpg";
 
 /***/ })
 
